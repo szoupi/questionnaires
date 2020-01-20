@@ -27,7 +27,18 @@ foreach ($_POST as $key => $value) {
     $results += $value;
 }
 echo $results;
-
+	
+	if ($results <= 18) {
+		echo "ΚΑΠΟΙΑ ΣΗΜΑΔΙΑ";
+	} elseif ($results >= 19 && $results <= 32 ) {
+		echo "ΙΣΩΣ ΣΟΒΑΡΟΙ ΠΑΡΑΓΟΝΤΕΣ";
+	} elseif ($results >= 33 && $results <= 49 ) {
+		echo "ΠΡΙΝ ΤΟ BURNOUT";
+	} elseif ($results >= 50 && $results <= 59 ) {
+		echo "ΣΟΒΑΡΟΣ ΚΙΝΔΥΝΟΣ BURNOUT";
+	} elseif ($results <= 60) {
+		echo "BURNOUT";
+	}
 
 }
 
