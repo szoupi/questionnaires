@@ -19,39 +19,61 @@ include 'assets/templates/header.html';
 
 
 <?php
-if (isset($_POST["submitForm"]) && !is_null($_POST["submitForm"])) {
+	if (isset($_POST["submitForm"]) && !is_null($_POST["submitForm"])) {
 
-$results = "";
-foreach ($_POST as $key => $value) {
-    echo $key . " " . $value . "<br />";
-    $results += $value;
-}
-echo $results;
-	
-	if ($results <= 18) {
-		echo "ΚΑΠΟΙΑ ΣΗΜΑΔΙΑ";
-	} elseif ($results >= 19 && $results <= 32 ) {
-		echo "ΙΣΩΣ ΣΟΒΑΡΟΙ ΠΑΡΑΓΟΝΤΕΣ";
-	} elseif ($results >= 33 && $results <= 49 ) {
-		echo "ΠΡΙΝ ΤΟ BURNOUT";
-	} elseif ($results >= 50 && $results <= 59 ) {
-		echo "ΣΟΒΑΡΟΣ ΚΙΝΔΥΝΟΣ BURNOUT";
-	} elseif ($results <= 60) {
-		echo "BURNOUT";
+		$results = "";
+		foreach ($_POST as $key => $value) {
+			echo $key . " " . $value . "<br />";
+			$results += $value;
+		}
+		echo $results;
+
+
+		if ($results <= 18) {
+			$class = "alert-success";
+			$heading =  "ΚΑΠΟΙΑ ΣΗΜΑΔΙΑ";
+				echo "ΚΑΠΟΙΑ ΣΗΜΑΔΙΑ";
+
+		} elseif ($results >= 19 && $results <= 32 ) {
+			$class = "alert-info";
+			$heading = "ΙΣΩΣ ΣΟΒΑΡΟΙ ΠΑΡΑΓΟΝΤΕΣ";
+			echo "ΙΣΩΣ ΣΟΒΑΡΟΙ ΠΑΡΑΓΟΝΤΕΣ";
+
+		} elseif ($results >= 33 && $results <= 49 ) {
+			$class = "alert-primary";
+			$heading = "ΠΡΙΝ ΤΟ BURNOUT";
+			echo "ΠΡΙΝ ΤΟ BURNOUT";
+
+		} elseif ($results >= 50 && $results <= 59 ) {
+			$class = "alert-warning";
+			$heading = "ΣΟΒΑΡΟΣ ΚΙΝΔΥΝΟΣ BURNOUT";
+			echo "ΣΟΒΑΡΟΣ ΚΙΝΔΥΝΟΣ BURNOUT";
+
+		} elseif ($results <= 60) {
+			$class = "alert-danger";
+			$heading = "BURNOUT";
+			echo "BURNOUT";
+		}
+		
 	}
-
-}
-
-
 
 ?>
 
+
+
+
 <div class="container-md">
     <div class="row">
-        <div class="col-md-6 offset-md-4">
+        <div class="col-md-6 col-lg-6 col-xl-4 offset-md-4">
             <div class="card card-body">
 
 
+				<div class="alert <?php echo $class; ?>">
+					<h3 class="alert-heading" ><?php echo $heading; ?></h3>
+					<hr>
+				</div>
+				
+				
                 <form   id="form-burnout" class="container form-horizontal"
                         enctype="multipart/form-data" accept-charset="UTF-8"
                         action="" method="post">
@@ -170,7 +192,7 @@ echo $results;
                         <div class="form-group">
                             <label class="control-label"></label>
                             <div>
-                                <button type="submit" id="submitForm" name="submitForm" class="btn btn-primary btn-lg btn-block" >Show me the results!</button>
+                                <button type="submit" id="submitForm" name="submitForm" class="btn btn-primary btn-lg btn-block" >Δείξε μου τα αποτελέσματα!</button>
                             </div>
                         </div>
 
