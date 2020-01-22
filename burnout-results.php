@@ -62,7 +62,9 @@ include 'assets/templates/header.html';
                 <div class="card text-white bg-<?php echo $class; ?> mb-3" style="max-width: 22rem;">
                     <div class="card-header"><?php echo $header; ?></div>
                     <div class="card-body">
-                        <h5 class="card-title"><?php echo $results; ?>/75</h5>
+                        <h5 class="card-title">
+                            Η Βαθμολογία σου είναι: <?php echo $results; ?>/75
+                        </h5>
                         <p class="card-text"><?php echo $content; ?></p>
                     </div>
                 </div>        
