@@ -3,36 +3,41 @@
 include 'assets/templates/header.html';
 ?>
 
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Εργασιακό κάψιμο - burnout</h1>
+    			<small class="text-muted">BURN-OUT /ˈb3ːrnaʊt/US:/ˈbɝnˌaʊt/ ,(bûrn′out′):<br />Αναλώνομαι προοδευτικά εκ των ένδον μέχρι του σημείου της απανθράκωσης</small>
 
-<!-- NAVIGATION -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="/">Home
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
+    <hr class="my-4">    
+    <p class="lead">Μήπως είναι καιρός να αλλάξεις το περιβάλλον εργασίας σου;</p>
+      <p class="lead">
+    <a class="btn btn-primary btn-lg" href="#questionnaire" role="button">Κάνε το τεστ</a>
+  </p>
   </div>
-</nav>
+</div>
 
 <!-- CONTENT -->
-<div class="container-md">
-    <div class="row">
-        <div class="col-md-6 col-lg-6 col-xl-4 offset-md-4">
+<main role="main" class="container ">
+    <div class="row p-1 m-1">
+        <div class="col-md-8 offset-md-2">
 			
-			<h1>Εργασιακό κάψιμο - burnout (τεστ)</h1>
-			<small class="text-muted">BURN-OUT /ˈb3ːrnaʊt/US:/ˈbɝnˌaʊt/ ,(bûrn′out′):<br />Αναλώνομαι προοδευτικά εκ των ένδον μέχρι του σημείου της απανθράκωσης</small>
+
 			<br /><br />
 			<div class="lead">
-				<p>Ξυπνάς το πρωί και δεν θέλεις να πας στην εργασία σου;<br />
-				Μήπως η δουλειά σου δεν σε γεμίζει πλέον;<br />
-				Αισθάνεσαι σωματικά και ψυχικά εξάντλημένος;<br />
-				<strong>Ίσως να είσαι καμμένος εργασιακά (burnout).</strong> </p>
-				<p>Κάνε το παρακάτω τεστ (λιγότερο από 1 λεπτό) και μάθε πόσο καμμένος είσαι!</p>
+				<ul>
+                    <li>Ξυπνάς το πρωί και δεν θέλεις να πας στην εργασία σου;</li>
+                    <li>Μήπως η δουλειά σου δεν σε γεμίζει πλέον;</li>
+                    <li>Αισθάνεσαι σωματικά και ψυχικά εξάντλημένος;</li>
+                    ...<br />
+                    <strong>Ίσως να είσαι καμμένος εργασιακά (burnout).</strong> 
+                </ul>
+                
+                <p>Κάνε το παρακάτω τεστ -λιγότερο από 1 λεπτό-) και μάθε πόσο καμμένος είσαι!</p>
+                <p style="text-align:center"><i class="glyphicon glyphicon-arrow-down"></i></p>
 			</div>
 			<br /><br />
+            <hr>
 			<h2>ΤΙ ΕΙΝΑΙ ΤΟ BURNOUT</h2>
 			<p>Με τον όρο Επαγγελματική Εξουθένωση (<a href="https://en.wikipedia.org/wiki/Occupational_burnout" target="_blank" rel="noopener">Occupational Burnout</a>) περιγράφεται ένα σύνολο συμπτωμάτων σωματικής και ψυχικής εξάντλησης που οφείλονται στις συνθήκες εργασίας, στο γνωστό εργασιακό στρες. Το burnout δεν έχει να κάνει με το πόσες ώρες εργάζεται κάποιος, αλλά αλλά με το βαθμό ικανοποίησης από την εργασία του. Το burnout είναι το αποτέλεσμα του συνδυασμού υψηλής προσπάθειας με χαμηλά αποτελέσματα κάτω από ιδιαίτερα πιεστικές συνθήκες εργασίας.</p>
 			<p>&nbsp;</p>
@@ -45,25 +50,23 @@ include 'assets/templates/header.html';
 			<h2>ΠΩΣ ΑΝΤΙΜΕΤΩΠΙΖΕΤΑΙ ΤΟ BURNOUT</h2>
 			<p>Αν και η απάντηση εξειδικεύεται και αφορά το κάθε άτομο ξεχωριστά, σε γένικές γραμμές απαιτείται:</p>
 			<ul>
-			<li>να αναγνωρίσεις τις αιτίες που σου προκαλούν επαγγελματικό άγχος</li>
-			<li>να αλλάξεις τις συνθήκες εργασίας που συμβάλλουν στο επαγγελματικό σου άγχος</li>
-			<li>να ξεκουράζεσαι καθημερινά σωματικά και ψυχικά</li>
+                <li>να αναγνωρίσεις τις αιτίες που σου προκαλούν επαγγελματικό άγχος</li>
+                <li>να αλλάξεις τις συνθήκες εργασίας που συμβάλλουν στο επαγγελματικό σου άγχος</li>
+                <li>να ξεκουράζεσαι καθημερινά σωματικά και ψυχικά</li>
 			</ul>			
 			<br /><br />
 			
 			
 			
 			<!-- 	TEST		 -->
-            <div class="card card-body">
+            <div class="card card-body" id="questionnaire">
 
 
-                <div class="alert <?php echo $class; ?>">
-                    <h3 class="alert-heading" ><?php echo $heading; ?></h3>
-                    <hr>
-                </div>
+
                 
+                <h2 class="display-4">BURNOUT TEST</h2>
                 <p>
-					Απάντησε στις παρακάτω ερωτήσεις και δες τα αποτελέσματα για να διαπιστώσεις σε ποιο βαθμό είσαι επηρεασμένος από το σύνδρομο της Εργασιακής Εξουθένωσης (burnout)
+					<strong>Απάντησε στις παρακάτω ερωτήσεις και δες τα αποτελέσματα για να διαπιστώσεις σε ποιο βαθμό είσαι επηρεασμένος από το σύνδρομο της Εργασιακής Εξουθένωσης (burnout)</strong>
 				</p>
 				
                 <form   id="form-burnout" class="container form-horizontal"
@@ -76,7 +79,7 @@ include 'assets/templates/header.html';
                             <div>
                                 <div class="input-group">
 
-                                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                    <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
                                         <label class="btn btn-secondary ">
                                             <input type="radio" name="question01" value="1" autocomplete="off"> Ποτέ
                                         </label>
@@ -102,7 +105,7 @@ include 'assets/templates/header.html';
                             <div>
                                 <div class="input-group">
 
-                                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                    <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
                                         <label class="btn btn-secondary ">
                                             <input type="radio" name="question02" value="1" autocomplete="off"> Ποτέ
                                         </label>
@@ -129,7 +132,7 @@ include 'assets/templates/header.html';
                             <div>
                                 <div class="input-group">
 
-                                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                    <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
                                         <label class="btn btn-secondary ">
                                             <input type="radio" name="question03" value="1" autocomplete="off"> Ποτέ
                                         </label>
@@ -156,7 +159,7 @@ include 'assets/templates/header.html';
                             <div>
                                 <div class="input-group">
 
-                                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                    <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
                                         <label class="btn btn-secondary ">
                                             <input type="radio" name="question04" value="1" autocomplete="off"> Ποτέ
                                         </label>
@@ -182,7 +185,7 @@ include 'assets/templates/header.html';
                             <div>
                                 <div class="input-group">
 
-                                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                    <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
                                         <label class="btn btn-secondary ">
                                             <input type="radio" name="question05" value="1" autocomplete="off"> Ποτέ
                                         </label>
@@ -208,7 +211,7 @@ include 'assets/templates/header.html';
                             <div>
                                 <div class="input-group">
 
-                                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                    <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
                                         <label class="btn btn-secondary ">
                                             <input type="radio" name="question06" value="1" autocomplete="off"> Ποτέ
                                         </label>
@@ -234,7 +237,7 @@ include 'assets/templates/header.html';
                             <div>
                                 <div class="input-group">
 
-                                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                    <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
                                         <label class="btn btn-secondary ">
                                             <input type="radio" name="question07" value="1" autocomplete="off"> Ποτέ
                                         </label>
@@ -260,7 +263,7 @@ include 'assets/templates/header.html';
                             <div>
                                 <div class="input-group">
 
-                                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                    <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
                                         <label class="btn btn-secondary ">
                                             <input type="radio" name="question08" value="1" autocomplete="off"> Ποτέ
                                         </label>
@@ -286,7 +289,7 @@ include 'assets/templates/header.html';
                             <div>
                                 <div class="input-group">
 
-                                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                    <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
                                         <label class="btn btn-secondary ">
                                             <input type="radio" name="question09" value="1" autocomplete="off"> Ποτέ
                                         </label>
@@ -312,7 +315,7 @@ include 'assets/templates/header.html';
                             <div>
                                 <div class="input-group">
 
-                                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                    <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
                                         <label class="btn btn-secondary ">
                                             <input type="radio" name="question10" value="1" autocomplete="off"> Ποτέ
                                         </label>
@@ -338,7 +341,7 @@ include 'assets/templates/header.html';
                             <div>
                                 <div class="input-group">
 
-                                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                    <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
                                         <label class="btn btn-secondary ">
                                             <input type="radio" name="question11" value="1" autocomplete="off"> Ποτέ
                                         </label>
@@ -364,7 +367,7 @@ include 'assets/templates/header.html';
                             <div>
                                 <div class="input-group">
 
-                                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                    <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
                                         <label class="btn btn-secondary ">
                                             <input type="radio" name="question12" value="1" autocomplete="off"> Ποτέ
                                         </label>
@@ -390,7 +393,7 @@ include 'assets/templates/header.html';
                             <div>
                                 <div class="input-group">
 
-                                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                    <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
                                         <label class="btn btn-secondary ">
                                             <input type="radio" name="question13" value="1" autocomplete="off"> Ποτέ
                                         </label>
@@ -416,7 +419,7 @@ include 'assets/templates/header.html';
                             <div>
                                 <div class="input-group">
 
-                                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                    <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
                                         <label class="btn btn-secondary ">
                                             <input type="radio" name="question14" value="1" autocomplete="off"> Ποτέ
                                         </label>
@@ -442,7 +445,7 @@ include 'assets/templates/header.html';
                             <div>
                                 <div class="input-group">
 
-                                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                    <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
                                         <label class="btn btn-secondary ">
                                             <input type="radio" name="question15" value="1" autocomplete="off"> Ποτέ
                                         </label>
@@ -477,10 +480,64 @@ include 'assets/templates/header.html';
 
             </div>
 	
+<br />
+<br />
+<br />
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-header">
+                            Όλα καλά!
+                        </div>
+                    <div class="card-body">
+                        <h5 class="card-title"> 15-18 βαθμοί</h5>
+                        <p class="card-text">Συνέχισε να απολαμβάνεις την εργασία σου!</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-header">
+                            Χμ...
+                        </div>
+                    <div class="card-body">
+                        <h5 class="card-title">19-32 βαθμοί</h5>
+                        <p class="card-text">Υπάρχουν κάποιες ενδείξεις ότι βρίσκεσαι στο αρχικό στάδιο της  Επαγγελματικής Εξουθένωσης (burnout).</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            Ουπς!
+                        </div>
+                    <div class="card-body">
+                        <h5 class="card-title"> 15-18 βαθμοί</h5>
+                        <p class="card-text">Συνέχισε να απολαμβάνεις την εργασία σου!</p>
+                    </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            Χμ...
+                        </div>
+                    <div class="card-body">
+                        <h5 class="card-title">19-32 βαθμοί</h5>
+                        <p class="card-text">Υπάρχουν κάποιες ενδείξεις ότι βρίσκεσαι στο αρχικό στάδιο της  Επαγγελματικής Εξουθένωσης (burnout).</p>
+                    </div>
+                    </div>
+
+                <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Header</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Success card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
 
         </div>
     </div>
-</div>
+</main>
 
 
 <?php
