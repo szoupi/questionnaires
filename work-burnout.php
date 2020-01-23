@@ -5,7 +5,7 @@ include 'assets/templates/header.html';
 
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
-    <h1 class="display-4">Εργασιακό κάψιμο - burnout</h1>
+    <h1 class="display-4">Burnout - Σύνδρομο Επαγγελματικής Εξουθένωσης</h1>
     			<small class="text-muted">BURN-OUT /ˈb3ːrnaʊt/US:/ˈbɝnˌaʊt/ ,(bûrn′out′):<br />Αναλώνομαι προοδευτικά εκ των ένδον μέχρι του σημείου της απανθράκωσης</small>
 
 
@@ -25,15 +25,19 @@ include 'assets/templates/header.html';
 
 			<br /><br />
 			<div class="lead">
+            <p class="text-center"> <i class="glyphicon glyphicon-fire"></i></p>
 				<ul>
                     <li>Ξυπνάς το πρωί και δεν θέλεις να πας στην εργασία σου;</li>
                     <li>Μήπως η δουλειά σου δεν σε γεμίζει πλέον;</li>
+                    <li>Νιώθεις ότι κάτι δεν πάει καλά με το στομάχι σου;</li>
+                    <li>Σκέφτεσαι διαρκώς τη δουλειά ακόμη και όταν τρως με την οικογένεια;</li>
+                    <li>Έχεις γίνει ευέξαπτος και θυμώδης;</li>
                     <li>Αισθάνεσαι σωματικά και ψυχικά εξάντλημένος;</li>
                     ...<br />
                     <strong>Ίσως να είσαι καμμένος εργασιακά (burnout).</strong> 
                 </ul>
                 
-                <p>Κάνε το παρακάτω τεστ -λιγότερο από 1 λεπτό-) και μάθε πόσο καμμένος είσαι!</p>
+                <p>Κάνε το παρακάτω τεστ -λιγότερο από 1 λεπτό-) και μάθε σε ποια κατάσταση είσαι!</p>
                 <p style="text-align:center"><i class="glyphicon glyphicon-arrow-down"></i></p>
 			</div>
 			<br /><br />
@@ -483,52 +487,62 @@ include 'assets/templates/header.html';
 <br />
 <br />
 <br />
-            <div class="row">
-                <div class="col-sm-6">
-                    <div class="card">
-                        <div class="card-header">
-                            Όλα καλά!
-                        </div>
+            <h2>ΕΠΕΞΗΓΗΣΗ ΒΑΘΜΟΛΟΓΙΑΣ</h2>
+            <p>
+                <div class="card">
+                    <div class="card-header">
+                        Όλα καλά!
+                    </div>
                     <div class="card-body">
                         <h5 class="card-title"> 15-18 βαθμοί</h5>
                         <p class="card-text">Συνέχισε να απολαμβάνεις την εργασία σου!</p>
                     </div>
-                    </div>
                 </div>
-                <div class="col-sm-6">
-                    <div class="card">
-                        <div class="card-header">
-                            Χμ...
-                        </div>
+            </p>
+
+            <p>
+            <div class="card">
+                    <div class="card-header">
+                        Χμ...
+                    </div>
                     <div class="card-body">
                         <h5 class="card-title">19-32 βαθμοί</h5>
                         <p class="card-text">Υπάρχουν κάποιες ενδείξεις ότι βρίσκεσαι στο αρχικό στάδιο της  Επαγγελματικής Εξουθένωσης (burnout).</p>
                     </div>
-                    </div>
                 </div>
-            </div>
+            </p>
 
-                    <div class="card">
-                        <div class="card-header">
-                            Ουπς!
-                        </div>
+            <p>
+                <div class="card">
+                    <div class="card-header">
+                        Ουπς!
+                    </div>
                     <div class="card-body">
                         <h5 class="card-title"> 15-18 βαθμοί</h5>
                         <p class="card-text">Συνέχισε να απολαμβάνεις την εργασία σου!</p>
                     </div>
+                </div>
+            </p>
+            
+            <p>
+                <div class="card">
+                    <div class="card-header">
+                        Χμ...
                     </div>
-                    <div class="card">
-                        <div class="card-header">
-                            Χμ...
-                        </div>
                     <div class="card-body">
                         <h5 class="card-title">19-32 βαθμοί</h5>
                         <p class="card-text">Υπάρχουν κάποιες ενδείξεις ότι βρίσκεσαι στο αρχικό στάδιο της  Επαγγελματικής Εξουθένωσης (burnout).</p>
                     </div>
-                    </div>
+                </div>
+            </p>
 
-
-
+			<p> 
+                <div class="alert alert-info">
+                    <h3 class="alert-heading" >ΣΗΜΕΙΩΣΗ</h3>
+                    <hr>
+                    <p>Το παραπάνω τεστ είναι ένα ανεπίσημο εργαλείο μέτρησης του εργασιακού στρες και της κατάστασης burnout. Δεν έχει απόλυτη επιστημονική επικύρωση και δεν φιλοδοξεί να αντικαταστήσει αντίστοιχα εργαλεία. Ως εκ τούτου, τα αποτελέσματα του τεστ θα πρέπει να λαμβάνονται υπόψιν σύμφωνα με τους κανόνες της κοινής λογικής.</p>
+                </div>
+            </p>
         </div>
     </div>
 </main>
