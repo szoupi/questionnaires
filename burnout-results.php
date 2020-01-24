@@ -31,8 +31,7 @@ include 'assets/templates/header.html';
         } elseif ($results >= 33 && $results <= 49 ) {
             $class = "primary";
             $header = "ΠΡΟΣΕΧΕ!";
-            $content = "Ουπς! Διατρέχεις κίνδυνο να πάθεις burnout! Πρέπει να παρεις μέτρα όσο είναι καιρός ακόμα.
-";
+            $content = "Διατρέχεις κίνδυνο να πάθεις burnout! Πρέπει να παρεις μέτρα όσο είναι καιρός ακόμα.";
 
         } elseif ($results >= 50 && $results <= 59 ) {
             $class = "warning";

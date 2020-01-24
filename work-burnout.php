@@ -491,11 +491,11 @@ include 'assets/templates/header.html';
             <p>
                 <div class="card">
                     <div class="card-header">
-                        Όλα καλά!
+                        ΤΕΛΕΙΑ
                     </div>
                     <div class="card-body">
                         <h5 class="card-title"> 15-18 βαθμοί</h5>
-                        <p class="card-text">Συνέχισε να απολαμβάνεις την εργασία σου!</p>
+                        <p class="card-text">Όλα καλά! Συνέχισε να απολαμβάνεις την εργασία σου!</p>
                     </div>
                 </div>
             </p>
@@ -503,11 +503,11 @@ include 'assets/templates/header.html';
             <p>
             <div class="card">
                     <div class="card-header">
-                        Χμ...
+                        ΣΤΑ ΠΡΩΤΑ ΒΗΜΑΤΑ...
                     </div>
                     <div class="card-body">
                         <h5 class="card-title">19-32 βαθμοί</h5>
-                        <p class="card-text">Υπάρχουν κάποιες ενδείξεις ότι βρίσκεσαι στο αρχικό στάδιο της  Επαγγελματικής Εξουθένωσης (burnout).</p>
+                        <p class="card-text">Χμ.. Υπάρχουν κάποιες ενδείξεις ότι βρίσκεσαι στο αρχικό στάδιο της  Επαγγελματικής Εξουθένωσης (burnout). Είσαι στην αρχή ακόμα αλλα μην το πάρεις αψήφιστα"</p>
                     </div>
                 </div>
             </p>
@@ -515,11 +515,11 @@ include 'assets/templates/header.html';
             <p>
                 <div class="card">
                     <div class="card-header">
-                        Ουπς!
+                        ΠΡΟΣΕΧΕ!
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title"> 15-18 βαθμοί</h5>
-                        <p class="card-text">Συνέχισε να απολαμβάνεις την εργασία σου!</p>
+                        <h5 class="card-title"> 33-49 βαθμοί</h5>
+                        <p class="card-text">Διατρέχεις κίνδυνο να πάθεις burnout! Πρέπει να παρεις μέτρα όσο είναι καιρός ακόμα.</p>
                     </div>
                 </div>
             </p>
@@ -527,15 +527,25 @@ include 'assets/templates/header.html';
             <p>
                 <div class="card">
                     <div class="card-header">
-                        Χμ...
+                        ΜΕ ΤΟ ΕΝΑ ΠΟΔΙ...
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">19-32 βαθμοί</h5>
-                        <p class="card-text">Υπάρχουν κάποιες ενδείξεις ότι βρίσκεσαι στο αρχικό στάδιο της  Επαγγελματικής Εξουθένωσης (burnout).</p>
+                        <h5 class="card-title">50-59 βαθμοί</h5>
+                        <p class="card-text">Έχεις μπει με το ένα πόδι στα όρια της επαγγελματικής εξουθένωσης. Ο κίνδυνος να πάθεις burnout είναι υψηλός! Πρέπει επειγόντως να αλλάξεις πορεία.</p>
                     </div>
                 </div>
             </p>
-
+            <p>
+                <div class="card">
+                    <div class="card-header">
+                        ΤΟ ΤΕΡΜΑΤΙΣΕΣ…
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">60-75 βαθμοί</h5>
+                        <p class="card-text">Τα πράγματα είναι πολύ σοβαρά. Είσαι και με τα δύο πόδια μέσα στα όρια της επαγγελματικής εξουθένωσης.  Το επίπεδο του άγχους σου είναι πάνω από το συνηθισμένο. Έχεις πάθει burnout! Πρέπει επειγόντως να αλλάξεις συνθήκες εργασίας και τρόπο ζωής.</p>
+                    </div>
+                </div>
+            </p>
 			<p> 
                 <div class="alert alert-info">
                     <h3 class="alert-heading" >ΣΗΜΕΙΩΣΗ</h3>
