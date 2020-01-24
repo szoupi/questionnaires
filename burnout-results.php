@@ -10,7 +10,7 @@ include 'assets/templates/header.html';
 <?php
     if (isset($_POST["submitForm"]) && !is_null($_POST["submitForm"])) {
 
-        $results = "";
+        $results = 0;
         foreach ($_POST as $key => $value) {
             // echo $key . " " . $value . "<br />";
             $results += $value;
