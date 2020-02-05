@@ -37,7 +37,7 @@ include '../assets/templates/header-eng.html';
                     <strong>You may be burnout!</strong> 
                 </ul>
                 
-                <p>Take following test (less than 1 minute) and find out your burnout level!</p>
+                <p>Take the following test (less than 1 minute) and find out your burnout level!</p>
                 <p style="text-align:center"><i class="glyphicon glyphicon-arrow-down"></i></p>
 			</div>
 			<br /><br />
