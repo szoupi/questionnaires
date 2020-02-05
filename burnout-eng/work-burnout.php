@@ -1,6 +1,6 @@
 <?php
 // custom style is there too
-include 'assets/templates/header.html';
+include '../assets/templates/header-eng.html';
 ?>
 
 <div class="jumbotron jumbotron-fluid">
@@ -559,7 +559,7 @@ include 'assets/templates/header.html';
 
 
 <?php
-include 'assets/templates/footer.html';
+include '../assets/templates/footer.html';
 ?>
 
 
