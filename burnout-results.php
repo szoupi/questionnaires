@@ -59,18 +59,24 @@ include 'assets/templates/header.html';
             <br /><br />
 
 
-                <div class="card text-white bg-<?php echo $class; ?> mb-3" style="max-width: 22rem;">
-                    <div class="card-header"><?php echo $header; ?></div>
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            Η Βαθμολογία σου είναι: <span style="font-size:1.6rem;"> <strong> <?php echo $results; ?>/75</strong></span>
-                        </h5>
-                        <p class="card-text"><?php echo $content; ?></p>
-                    </div>
-                </div>        
+            <div class="card text-white bg-<?php echo $class; ?> mb-3" style="max-width: 22rem;">
+                <div class="card-header"><?php echo $header; ?></div>
+                <div class="card-body">
+                    <h5 class="card-title">
+                        Η Βαθμολογία σου είναι: <span style="font-size:1.6rem;"> <strong> <?php echo $results; ?>/75</strong></span>
+                    </h5>
+                    <p class="card-text"><?php echo $content; ?></p>
+                </div>
+            </div>        
 
-<hr>
-                
+			<p> 
+                <div class="alert alert-info">
+                    <h3 class="alert-heading" >ΣΗΜΕΙΩΣΗ</h3>
+                    <hr>
+                    <p>Το παραπάνω τεστ είναι ένα ανεπίσημο εργαλείο μέτρησης του εργασιακού στρες και της κατάστασης burnout. Δεν έχει απόλυτη επιστημονική επικύρωση και δεν φιλοδοξεί να αντικαταστήσει αντίστοιχα εργαλεία. Ως εκ τούτου, τα αποτελέσματα του τεστ θα πρέπει να λαμβάνονται υπόψιν σύμφωνα με τους κανόνες της κοινής λογικής.</p>
+                </div>
+            </p>   
+                         
         </div>
     </div>
 </main>

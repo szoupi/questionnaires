@@ -70,7 +70,7 @@ include '../assets/templates/header-eng.html';
                 
                 <h2 class="display-4">BURNOUT TEST</h2>
                 <p>
-					<strong>Απάντησε στις παρακάτω ερωτήσεις και δες τα αποτελέσματα για να διαπιστώσεις σε ποιο βαθμό είσαι επηρεασμένος από το σύνδρομο της Εργασιακής Εξουθένωσης (burnout)</strong>
+					<strong>Answer the following questions and see the results to find out to what extent you are affected by occupational burnout syndrome</strong>
 				</p>
 				
                 <form   id="form-burnout" class="container form-horizontal"
@@ -79,25 +79,25 @@ include '../assets/templates/header-eng.html';
                     <fieldset>
 
                         <div class="form-group">
-                            <label for="question01" class="control-label">1. Αισθάνομαι ότι δεν με κατανοούν ούτε με εκτιμούν οι συνάδελφοι και οι συνεργάτες μου</label>
+                            <label for="question01" class="control-label">1. I feel that my colleagues and coworkers do not understand or appreciate me</label>
                             <div>
                                 <div class="input-group">
 
                                     <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
                                         <label class="btn btn-secondary ">
-                                            <input type="radio" name="question01" value="1" autocomplete="off"> Ποτέ
+                                            <input type="radio" name="question01" value="1" autocomplete="off"> Never
                                         </label>
                                         <label class="btn btn-secondary">
-                                            <input type="radio" name="question01" value="2" autocomplete="off"> Σπάνια
+                                            <input type="radio" name="question01" value="2" autocomplete="off"> Rarely
                                         </label>
                                         <label class="btn btn-secondary">
-                                            <input type="radio" name="question01" value="3" autocomplete="off"> Μερικές φορές
+                                            <input type="radio" name="question01" value="3" autocomplete="off"> Sometimes
                                         </label>
                                         <label class="btn btn-secondary">
-                                            <input type="radio" name="question01" value="4" autocomplete="off"> Συχνά
+                                            <input type="radio" name="question01" value="4" autocomplete="off"> Often
                                         </label>
                                         <label class="btn btn-secondary">
-                                            <input type="radio" name="question01" value="5" autocomplete="off"> Πάντα
+                                            <input type="radio" name="question01" value="5" autocomplete="off"> Always
                                         </label>                                                                                                                        
                                     </div>
                                 </div>
@@ -105,52 +105,25 @@ include '../assets/templates/header-eng.html';
                         </div>
 
                         <div class="form-group">
-                            <label for="question02" class="control-label">2. Νιώθω ότι κάνω λιγότερες προσπάθειες από όσο θα έπρεπε</label>
+                            <label for="question02" class="control-label">2. I feel that I make less effort than I should have</label>
                             <div>
                                 <div class="input-group">
 
                                     <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
                                         <label class="btn btn-secondary ">
-                                            <input type="radio" name="question02" value="1" autocomplete="off"> Ποτέ
+                                            <input type="radio" name="question02" value="1" autocomplete="off"> Never
                                         </label>
                                         <label class="btn btn-secondary">
-                                            <input type="radio" name="question02" value="2" autocomplete="off"> Σπάνια
+                                            <input type="radio" name="question02" value="2" autocomplete="off"> Rarely
                                         </label>
                                         <label class="btn btn-secondary">
-                                            <input type="radio" name="question02" value="3" autocomplete="off"> Μερικές φορές
+                                            <input type="radio" name="question02" value="3" autocomplete="off"> Sometimes
                                         </label>
                                         <label class="btn btn-secondary">
-                                            <input type="radio" name="question02" value="4" autocomplete="off"> Συχνά
+                                            <input type="radio" name="question02" value="4" autocomplete="off"> Often
                                         </label>
                                         <label class="btn btn-secondary">
-                                            <input type="radio" name="question02" value="5" autocomplete="off"> Πάντα
-                                        </label>                                                                                                                        
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="form-group">
-                            <label for="question03" class="control-label">3. Κάνω αρνητικές σκέψεις για τη δουλειά μου</label>
-                            <div>
-                                <div class="input-group">
-
-                                    <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
-                                        <label class="btn btn-secondary ">
-                                            <input type="radio" name="question03" value="1" autocomplete="off"> Ποτέ
-                                        </label>
-                                        <label class="btn btn-secondary">
-                                            <input type="radio" name="question03" value="2" autocomplete="off"> Σπάνια
-                                        </label>
-                                        <label class="btn btn-secondary">
-                                            <input type="radio" name="question03" value="3" autocomplete="off"> Μερικές φορές
-                                        </label>
-                                        <label class="btn btn-secondary">
-                                            <input type="radio" name="question03" value="4" autocomplete="off"> Συχνά
-                                        </label>
-                                        <label class="btn btn-secondary">
-                                            <input type="radio" name="question03" value="5" autocomplete="off"> Πάντα
+                                            <input type="radio" name="question02" value="5" autocomplete="off"> Always
                                         </label>                                                                                                                        
                                     </div>
                                 </div>
@@ -159,51 +132,52 @@ include '../assets/templates/header-eng.html';
 
 
                         <div class="form-group">
-                            <label for="question04" class="control-label">4. Νιώθω ότι βρίσκομαι στο λάθος μέρος ή ότι κάνω λάθος δουλειά</label>
+                            <label for="question03" class="control-label">3. I have negative thoughts about my job</label>
                             <div>
                                 <div class="input-group">
 
                                     <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
                                         <label class="btn btn-secondary ">
-                                            <input type="radio" name="question04" value="1" autocomplete="off"> Ποτέ
+                                            <input type="radio" name="question03" value="1" autocomplete="off"> Never
                                         </label>
                                         <label class="btn btn-secondary">
-                                            <input type="radio" name="question04" value="2" autocomplete="off"> Σπάνια
+                                            <input type="radio" name="question03" value="2" autocomplete="off"> Rarely
                                         </label>
                                         <label class="btn btn-secondary">
-                                            <input type="radio" name="question04" value="3" autocomplete="off"> Μερικές φορές
+                                            <input type="radio" name="question03" value="3" autocomplete="off"> Sometimes
                                         </label>
                                         <label class="btn btn-secondary">
-                                            <input type="radio" name="question04" value="4" autocomplete="off"> Συχνά
+                                            <input type="radio" name="question03" value="4" autocomplete="off"> Often
                                         </label>
                                         <label class="btn btn-secondary">
-                                            <input type="radio" name="question04" value="5" autocomplete="off"> Πάντα
+                                            <input type="radio" name="question03" value="5" autocomplete="off"> Always
                                         </label>                                                                                                                        
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        
+
+
                         <div class="form-group">
-                            <label for="question05" class="control-label">5. Αισθάνομαι πως δεν έχω χρόνο να κάνω πράγματα που βελτιώνουν την ποιότητα της εργασίας μου</label>
+                            <label for="question04" class="control-label">4. I feel like I'm in the wrong place or doing the wrong job</label>
                             <div>
                                 <div class="input-group">
 
                                     <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
                                         <label class="btn btn-secondary ">
-                                            <input type="radio" name="question05" value="1" autocomplete="off"> Ποτέ
+                                            <input type="radio" name="question04" value="1" autocomplete="off"> Never
                                         </label>
                                         <label class="btn btn-secondary">
-                                            <input type="radio" name="question05" value="2" autocomplete="off"> Σπάνια
+                                            <input type="radio" name="question04" value="2" autocomplete="off"> Rarely
                                         </label>
                                         <label class="btn btn-secondary">
-                                            <input type="radio" name="question05" value="3" autocomplete="off"> Μερικές φορές
+                                            <input type="radio" name="question04" value="3" autocomplete="off"> Sometimes
                                         </label>
                                         <label class="btn btn-secondary">
-                                            <input type="radio" name="question05" value="4" autocomplete="off"> Συχνά
+                                            <input type="radio" name="question04" value="4" autocomplete="off"> Often
                                         </label>
                                         <label class="btn btn-secondary">
-                                            <input type="radio" name="question05" value="5" autocomplete="off"> Πάντα
+                                            <input type="radio" name="question04" value="5" autocomplete="off"> Always
                                         </label>                                                                                                                        
                                     </div>
                                 </div>
@@ -211,25 +185,25 @@ include '../assets/templates/header-eng.html';
                         </div>
                         
                         <div class="form-group">
-                            <label for="question06" class="control-label">6. Εκνευρίζομαι εύκολα από τους συναδέλφους, τους συνεργάτες ή από μικρά προβλήματα</label>
+                            <label for="question05" class="control-label">5. I feel like I don't have time to do things that improve the quality of my work</label>
                             <div>
                                 <div class="input-group">
 
                                     <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
                                         <label class="btn btn-secondary ">
-                                            <input type="radio" name="question06" value="1" autocomplete="off"> Ποτέ
+                                            <input type="radio" name="question05" value="1" autocomplete="off"> Never
                                         </label>
                                         <label class="btn btn-secondary">
-                                            <input type="radio" name="question06" value="2" autocomplete="off"> Σπάνια
+                                            <input type="radio" name="question05" value="2" autocomplete="off"> Rarely
                                         </label>
                                         <label class="btn btn-secondary">
-                                            <input type="radio" name="question06" value="3" autocomplete="off"> Μερικές φορές
+                                            <input type="radio" name="question05" value="3" autocomplete="off"> Sometimes
                                         </label>
                                         <label class="btn btn-secondary">
-                                            <input type="radio" name="question06" value="4" autocomplete="off"> Συχνά
+                                            <input type="radio" name="question05" value="4" autocomplete="off"> Often
                                         </label>
                                         <label class="btn btn-secondary">
-                                            <input type="radio" name="question06" value="5" autocomplete="off"> Πάντα
+                                            <input type="radio" name="question05" value="5" autocomplete="off"> Always
                                         </label>                                                                                                                        
                                     </div>
                                 </div>
@@ -237,25 +211,25 @@ include '../assets/templates/header-eng.html';
                         </div>
                         
                         <div class="form-group">
-                            <label for="question07" class="control-label">7. Νιώθω να χάνω το ρυθμό και τη σωματική ή συναισθηματική μου ενέργεια</label>
+                            <label for="question06" class="control-label">6. I get easily annoyed by colleagues, coworkers or small problems</label>
                             <div>
                                 <div class="input-group">
 
                                     <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
                                         <label class="btn btn-secondary ">
-                                            <input type="radio" name="question07" value="1" autocomplete="off"> Ποτέ
+                                            <input type="radio" name="question06" value="1" autocomplete="off"> Never
                                         </label>
                                         <label class="btn btn-secondary">
-                                            <input type="radio" name="question07" value="2" autocomplete="off"> Σπάνια
+                                            <input type="radio" name="question06" value="2" autocomplete="off"> Rarely
                                         </label>
                                         <label class="btn btn-secondary">
-                                            <input type="radio" name="question07" value="3" autocomplete="off"> Μερικές φορές
+                                            <input type="radio" name="question06" value="3" autocomplete="off"> Sometimes
                                         </label>
                                         <label class="btn btn-secondary">
-                                            <input type="radio" name="question07" value="4" autocomplete="off"> Συχνά
+                                            <input type="radio" name="question06" value="4" autocomplete="off"> Often
                                         </label>
                                         <label class="btn btn-secondary">
-                                            <input type="radio" name="question07" value="5" autocomplete="off"> Πάντα
+                                            <input type="radio" name="question06" value="5" autocomplete="off"> Always
                                         </label>                                                                                                                        
                                     </div>
                                 </div>
@@ -263,25 +237,25 @@ include '../assets/templates/header-eng.html';
                         </div>
                         
                         <div class="form-group">
-                            <label for="question08" class="control-label">8. Νιώθω ότι δεν έχω κάποιον να μιλήσω</label>
+                            <label for="question07" class="control-label">7. I feel like I am losing my rhythm and my physical or emotional energy</label>
                             <div>
                                 <div class="input-group">
 
                                     <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
                                         <label class="btn btn-secondary ">
-                                            <input type="radio" name="question08" value="1" autocomplete="off"> Ποτέ
+                                            <input type="radio" name="question07" value="1" autocomplete="off"> Never
                                         </label>
                                         <label class="btn btn-secondary">
-                                            <input type="radio" name="question08" value="2" autocomplete="off"> Σπάνια
+                                            <input type="radio" name="question07" value="2" autocomplete="off"> Rarely
                                         </label>
                                         <label class="btn btn-secondary">
-                                            <input type="radio" name="question08" value="3" autocomplete="off"> Μερικές φορές
+                                            <input type="radio" name="question07" value="3" autocomplete="off"> Sometimes
                                         </label>
                                         <label class="btn btn-secondary">
-                                            <input type="radio" name="question08" value="4" autocomplete="off"> Συχνά
+                                            <input type="radio" name="question07" value="4" autocomplete="off"> Often
                                         </label>
                                         <label class="btn btn-secondary">
-                                            <input type="radio" name="question08" value="5" autocomplete="off"> Πάντα
+                                            <input type="radio" name="question07" value="5" autocomplete="off"> Always
                                         </label>                                                                                                                        
                                     </div>
                                 </div>
@@ -289,25 +263,25 @@ include '../assets/templates/header-eng.html';
                         </div>
                         
                         <div class="form-group">
-                            <label for="question09" class="control-label">9. Πιστεύω ότι κάποια πράγματα στη δουλειά με εκνευρίζουν</label>
+                            <label for="question08" class="control-label">8. I feel like I don't have anyone to talk to</label>
                             <div>
                                 <div class="input-group">
 
                                     <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
                                         <label class="btn btn-secondary ">
-                                            <input type="radio" name="question09" value="1" autocomplete="off"> Ποτέ
+                                            <input type="radio" name="question08" value="1" autocomplete="off"> Never
                                         </label>
                                         <label class="btn btn-secondary">
-                                            <input type="radio" name="question09" value="2" autocomplete="off"> Σπάνια
+                                            <input type="radio" name="question08" value="2" autocomplete="off"> Rarely
                                         </label>
                                         <label class="btn btn-secondary">
-                                            <input type="radio" name="question09" value="3" autocomplete="off"> Μερικές φορές
+                                            <input type="radio" name="question08" value="3" autocomplete="off"> Sometimes
                                         </label>
                                         <label class="btn btn-secondary">
-                                            <input type="radio" name="question09" value="4" autocomplete="off"> Συχνά
+                                            <input type="radio" name="question08" value="4" autocomplete="off"> Often
                                         </label>
                                         <label class="btn btn-secondary">
-                                            <input type="radio" name="question09" value="5" autocomplete="off"> Πάντα
+                                            <input type="radio" name="question08" value="5" autocomplete="off"> Always
                                         </label>                                                                                                                        
                                     </div>
                                 </div>
@@ -315,25 +289,25 @@ include '../assets/templates/header-eng.html';
                         </div>
                         
                         <div class="form-group">
-                            <label for="question10" class="control-label">10. Αισθάνομαι πως η γραφειοκρατία της δουλειάς και οργανωτικά προβλήματα με εμποδίζουν να εργαστώ αποδοτικά</label>
+                            <label for="question09" class="control-label">9. I think some things at work annoy me</label>
                             <div>
                                 <div class="input-group">
 
                                     <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
                                         <label class="btn btn-secondary ">
-                                            <input type="radio" name="question10" value="1" autocomplete="off"> Ποτέ
+                                            <input type="radio" name="question09" value="1" autocomplete="off"> Never
                                         </label>
                                         <label class="btn btn-secondary">
-                                            <input type="radio" name="question10" value="2" autocomplete="off"> Σπάνια
+                                            <input type="radio" name="question09" value="2" autocomplete="off"> Rarely
                                         </label>
                                         <label class="btn btn-secondary">
-                                            <input type="radio" name="question10" value="3" autocomplete="off"> Μερικές φορές
+                                            <input type="radio" name="question09" value="3" autocomplete="off"> Sometimes
                                         </label>
                                         <label class="btn btn-secondary">
-                                            <input type="radio" name="question10" value="4" autocomplete="off"> Συχνά
+                                            <input type="radio" name="question09" value="4" autocomplete="off"> Often
                                         </label>
                                         <label class="btn btn-secondary">
-                                            <input type="radio" name="question10" value="5" autocomplete="off"> Πάντα
+                                            <input type="radio" name="question09" value="5" autocomplete="off"> Always
                                         </label>                                                                                                                        
                                     </div>
                                 </div>
@@ -341,25 +315,25 @@ include '../assets/templates/header-eng.html';
                         </div>
                         
                         <div class="form-group">
-                            <label for="question11" class="control-label">11. Νιώθω ότι οι απαιτήσεις στη δουλειά ξεπερνούν τα όρια της αντοχής μου</label>
+                            <label for="question10" class="control-label">10. I feel that bureaucracy and organizational problems prevent me from working efficiently</label>
                             <div>
                                 <div class="input-group">
 
                                     <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
                                         <label class="btn btn-secondary ">
-                                            <input type="radio" name="question11" value="1" autocomplete="off"> Ποτέ
+                                            <input type="radio" name="question10" value="1" autocomplete="off"> Never
                                         </label>
                                         <label class="btn btn-secondary">
-                                            <input type="radio" name="question11" value="2" autocomplete="off"> Σπάνια
+                                            <input type="radio" name="question10" value="2" autocomplete="off"> Rarely
                                         </label>
                                         <label class="btn btn-secondary">
-                                            <input type="radio" name="question11" value="3" autocomplete="off"> Μερικές φορές
+                                            <input type="radio" name="question10" value="3" autocomplete="off"> Sometimes
                                         </label>
                                         <label class="btn btn-secondary">
-                                            <input type="radio" name="question11" value="4" autocomplete="off"> Συχνά
+                                            <input type="radio" name="question10" value="4" autocomplete="off"> Often
                                         </label>
                                         <label class="btn btn-secondary">
-                                            <input type="radio" name="question11" value="5" autocomplete="off"> Πάντα
+                                            <input type="radio" name="question10" value="5" autocomplete="off"> Always
                                         </label>                                                                                                                        
                                     </div>
                                 </div>
@@ -367,25 +341,25 @@ include '../assets/templates/header-eng.html';
                         </div>
                         
                         <div class="form-group">
-                            <label for="question12" class="control-label">12. Αισθάνομαι ότι η δουλειά μου δεν μου προσφέρει αυτό που θα ήθελα</label>
+                            <label for="question11" class="control-label">11. I feel that the demands of work go beyond the limits of my stamina</label>
                             <div>
                                 <div class="input-group">
 
                                     <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
                                         <label class="btn btn-secondary ">
-                                            <input type="radio" name="question12" value="1" autocomplete="off"> Ποτέ
+                                            <input type="radio" name="question11" value="1" autocomplete="off"> Never
                                         </label>
                                         <label class="btn btn-secondary">
-                                            <input type="radio" name="question12" value="2" autocomplete="off"> Σπάνια
+                                            <input type="radio" name="question11" value="2" autocomplete="off"> Rarely
                                         </label>
                                         <label class="btn btn-secondary">
-                                            <input type="radio" name="question12" value="3" autocomplete="off"> Μερικές φορές
+                                            <input type="radio" name="question11" value="3" autocomplete="off"> Sometimes
                                         </label>
                                         <label class="btn btn-secondary">
-                                            <input type="radio" name="question12" value="4" autocomplete="off"> Συχνά
+                                            <input type="radio" name="question11" value="4" autocomplete="off"> Often
                                         </label>
                                         <label class="btn btn-secondary">
-                                            <input type="radio" name="question12" value="5" autocomplete="off"> Πάντα
+                                            <input type="radio" name="question11" value="5" autocomplete="off"> Always
                                         </label>                                                                                                                        
                                     </div>
                                 </div>
@@ -393,25 +367,25 @@ include '../assets/templates/header-eng.html';
                         </div>
                         
                         <div class="form-group">
-                            <label for="question13" class="control-label">13. Νιώθω να με πιέζει η ανάγκη να επιτύχω</label>
+                            <label for="question12" class="control-label">12. I feel that my job doesn't offer me what I want</label>
                             <div>
                                 <div class="input-group">
 
                                     <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
                                         <label class="btn btn-secondary ">
-                                            <input type="radio" name="question13" value="1" autocomplete="off"> Ποτέ
+                                            <input type="radio" name="question12" value="1" autocomplete="off"> Never
                                         </label>
                                         <label class="btn btn-secondary">
-                                            <input type="radio" name="question13" value="2" autocomplete="off"> Σπάνια
+                                            <input type="radio" name="question12" value="2" autocomplete="off"> Rarely
                                         </label>
                                         <label class="btn btn-secondary">
-                                            <input type="radio" name="question13" value="3" autocomplete="off"> Μερικές φορές
+                                            <input type="radio" name="question12" value="3" autocomplete="off"> Sometimes
                                         </label>
                                         <label class="btn btn-secondary">
-                                            <input type="radio" name="question13" value="4" autocomplete="off"> Συχνά
+                                            <input type="radio" name="question12" value="4" autocomplete="off"> Often
                                         </label>
                                         <label class="btn btn-secondary">
-                                            <input type="radio" name="question13" value="5" autocomplete="off"> Πάντα
+                                            <input type="radio" name="question12" value="5" autocomplete="off"> Always
                                         </label>                                                                                                                        
                                     </div>
                                 </div>
@@ -419,25 +393,25 @@ include '../assets/templates/header-eng.html';
                         </div>
                         
                         <div class="form-group">
-                            <label for="question14" class="control-label">14. Αισθάνομαι ότι είμαι σκληρός και λιγότερο υπομονετικός στους άλλους από όσο τους αξίζει</label>
+                            <label for="question13" class="control-label">13. I feel the urge to succeed</label>
                             <div>
                                 <div class="input-group">
 
                                     <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
                                         <label class="btn btn-secondary ">
-                                            <input type="radio" name="question14" value="1" autocomplete="off"> Ποτέ
+                                            <input type="radio" name="question13" value="1" autocomplete="off"> Never
                                         </label>
                                         <label class="btn btn-secondary">
-                                            <input type="radio" name="question14" value="2" autocomplete="off"> Σπάνια
+                                            <input type="radio" name="question13" value="2" autocomplete="off"> Rarely
                                         </label>
                                         <label class="btn btn-secondary">
-                                            <input type="radio" name="question14" value="3" autocomplete="off"> Μερικές φορές
+                                            <input type="radio" name="question13" value="3" autocomplete="off"> Sometimes
                                         </label>
                                         <label class="btn btn-secondary">
-                                            <input type="radio" name="question14" value="4" autocomplete="off"> Συχνά
+                                            <input type="radio" name="question13" value="4" autocomplete="off"> Often
                                         </label>
                                         <label class="btn btn-secondary">
-                                            <input type="radio" name="question14" value="5" autocomplete="off"> Πάντα
+                                            <input type="radio" name="question13" value="5" autocomplete="off"> Always
                                         </label>                                                                                                                        
                                     </div>
                                 </div>
@@ -445,25 +419,51 @@ include '../assets/templates/header-eng.html';
                         </div>
                         
                         <div class="form-group">
-                            <label for="question15" class="control-label">15. Αισθάνομαι πως δεν έχω τον απαιτούμενο χρόνο για να προγραμματίζω τη δουλειά μου</label>
+                            <label for="question14" class="control-label">14. I feel that I am tough and less patient with others than I deserve</label>
                             <div>
                                 <div class="input-group">
 
                                     <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
                                         <label class="btn btn-secondary ">
-                                            <input type="radio" name="question15" value="1" autocomplete="off"> Ποτέ
+                                            <input type="radio" name="question14" value="1" autocomplete="off"> Never
                                         </label>
                                         <label class="btn btn-secondary">
-                                            <input type="radio" name="question15" value="2" autocomplete="off"> Σπάνια
+                                            <input type="radio" name="question14" value="2" autocomplete="off"> Rarely
                                         </label>
                                         <label class="btn btn-secondary">
-                                            <input type="radio" name="question15" value="3" autocomplete="off"> Μερικές φορές
+                                            <input type="radio" name="question14" value="3" autocomplete="off"> Sometimes
                                         </label>
                                         <label class="btn btn-secondary">
-                                            <input type="radio" name="question15" value="4" autocomplete="off"> Συχνά
+                                            <input type="radio" name="question14" value="4" autocomplete="off"> Often
                                         </label>
                                         <label class="btn btn-secondary">
-                                            <input type="radio" name="question15" value="5" autocomplete="off"> Πάντα
+                                            <input type="radio" name="question14" value="5" autocomplete="off"> Always
+                                        </label>                                                                                                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="question15" class="control-label">15. I feel like I don't have the time needed to plan my work</label>
+                            <div>
+                                <div class="input-group">
+
+                                    <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
+                                        <label class="btn btn-secondary ">
+                                            <input type="radio" name="question15" value="1" autocomplete="off"> Never
+                                        </label>
+                                        <label class="btn btn-secondary">
+                                            <input type="radio" name="question15" value="2" autocomplete="off"> Rarely
+                                        </label>
+                                        <label class="btn btn-secondary">
+                                            <input type="radio" name="question15" value="3" autocomplete="off"> Sometimes
+                                        </label>
+                                        <label class="btn btn-secondary">
+                                            <input type="radio" name="question15" value="4" autocomplete="off"> Often
+                                        </label>
+                                        <label class="btn btn-secondary">
+                                            <input type="radio" name="question15" value="5" autocomplete="off"> Always
                                         </label>                                                                                                                        
                                     </div>
                                 </div>
@@ -475,7 +475,7 @@ include '../assets/templates/header-eng.html';
                         <div class="form-group">
                             <label class="control-label"></label>
                             <div>
-                                <button type="submit" id="submitForm" name="submitForm" class="btn btn-primary btn-lg btn-block" >Δείξε μου τα αποτελέσματα!</button>
+                                <button type="submit" id="submitForm" name="submitForm" class="btn btn-primary btn-lg btn-block" >Show me the results!</button>
                             </div>
                         </div>
 
@@ -487,15 +487,15 @@ include '../assets/templates/header-eng.html';
 <br />
 <br />
 <br />
-            <h2>ΕΠΕΞΗΓΗΣΗ ΒΑΘΜΟΛΟΓΙΑΣ</h2>
+            <h2>SCORE EXPLANATION</h2>
             <p>
                 <div class="card">
                     <div class="card-header">
-                        ΤΕΛΕΙΑ
+                        PERFECT
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title"> 15-18 βαθμοί</h5>
-                        <p class="card-text">Όλα καλά! Συνέχισε να απολαμβάνεις την εργασία σου!</p>
+                        <h5 class="card-title"> 15-18 points</h5>
+                        <p class="card-text"> All good! Keep enjoying your work!</p>
                     </div>
                 </div>
             </p>
@@ -503,11 +503,11 @@ include '../assets/templates/header-eng.html';
             <p>
             <div class="card">
                     <div class="card-header">
-                        ΣΤΑ ΠΡΩΤΑ ΒΗΜΑΤΑ...
+                        IN THE FIRST STEPS...
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">19-32 βαθμοί</h5>
-                        <p class="card-text">Χμ.. Υπάρχουν κάποιες ενδείξεις ότι βρίσκεσαι στο αρχικό στάδιο της  Επαγγελματικής Εξουθένωσης (burnout). Είσαι στην αρχή ακόμα αλλα μην το πάρεις αψήφιστα"</p>
+                        <h5 class="card-title">19-32 points</h5>
+                        <p class="card-text">Hmm .. There are some indications that you are in the early stages of burnout. You're in the beginning yet don't take it light-heartedly"</p>
                     </div>
                 </div>
             </p>
@@ -515,11 +515,11 @@ include '../assets/templates/header-eng.html';
             <p>
                 <div class="card">
                     <div class="card-header">
-                        ΠΡΟΣΕΧΕ!
+                        BE CAREFUL!
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title"> 33-49 βαθμοί</h5>
-                        <p class="card-text">Διατρέχεις κίνδυνο να πάθεις burnout! Πρέπει να παρεις μέτρα όσο είναι καιρός ακόμα.</p>
+                        <h5 class="card-title"> 33-49 points</h5>
+                        <p class="card-text">You run the risk of getting burnout! You have to take action while it is still time.</p>
                     </div>
                 </div>
             </p>
@@ -527,30 +527,30 @@ include '../assets/templates/header-eng.html';
             <p>
                 <div class="card">
                     <div class="card-header">
-                        ΜΕ ΤΟ ΕΝΑ ΠΟΔΙ...
+                        ONE FOOT INTO...
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">50-59 βαθμοί</h5>
-                        <p class="card-text">Έχεις μπει με το ένα πόδι στα όρια της επαγγελματικής εξουθένωσης. Ο κίνδυνος να πάθεις burnout είναι υψηλός! Πρέπει επειγόντως να αλλάξεις πορεία.</p>
+                        <h5 class="card-title">50-59 points</h5>
+                        <p class="card-text">You're one foot into burnout zone. The risk of getting burnout is high! You must urgently change your course.</p>
                     </div>
                 </div>
             </p>
             <p>
                 <div class="card">
                     <div class="card-header">
-                        ΤΟ ΤΕΡΜΑΤΙΣΕΣ…
+                        YOU ARE BURNOUT…
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">60-75 βαθμοί</h5>
-                        <p class="card-text">Τα πράγματα είναι πολύ σοβαρά. Είσαι και με τα δύο πόδια μέσα στα όρια της επαγγελματικής εξουθένωσης.  Το επίπεδο του άγχους σου είναι πάνω από το συνηθισμένο. Έχεις πάθει burnout! Πρέπει επειγόντως να αλλάξεις συνθήκες εργασίας και τρόπο ζωής.</p>
+                        <h5 class="card-title">60-75 points</h5>
+                        <p class="card-text">Things are very serious. You have crossed the verge of burnout. Your level of anxiety is higher than usual. You are burnout! You must urgently change your working conditions and lifestyle.</p>
                     </div>
                 </div>
             </p>
 			<p> 
                 <div class="alert alert-info">
-                    <h3 class="alert-heading" >ΣΗΜΕΙΩΣΗ</h3>
+                    <h3 class="alert-heading" >NOTE</h3>
                     <hr>
-                    <p>Το παραπάνω τεστ είναι ένα ανεπίσημο εργαλείο μέτρησης του εργασιακού στρες και της κατάστασης burnout. Δεν έχει απόλυτη επιστημονική επικύρωση και δεν φιλοδοξεί να αντικαταστήσει αντίστοιχα εργαλεία. Ως εκ τούτου, τα αποτελέσματα του τεστ θα πρέπει να λαμβάνονται υπόψιν σύμφωνα με τους κανόνες της κοινής λογικής.</p>
+                    <p>The above test is an informal tool for measuring work stress and burnout level. It does not have complete scientific validation and does not aspire to replace corresponding tools. Therefore, the results of the test should be taken into account in accordance with the rules of common sense.</p>
                 </div>
             </p>
         </div>
