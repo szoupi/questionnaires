@@ -81,9 +81,9 @@ include '../assets/templates/header-eng.html';
             </p>
 
             <div>
-                <figure class="wp-block-uagb-image__figure">
-                    <a class="" href="https://news.szoupi.com" target="_blank" rel="noreferrer noopener">
-                        <img decoding="async" srcset="https://szoupi.com/wp-content/uploads/2023/11/news_szoupi_com_banner_sm.png.webp ,https://szoupi.com/wp-content/uploads/2023/11/news_szoupi_com_banner_sm.png.webp 780w, https://szoupi.com/wp-content/uploads/2023/11/news_szoupi_com_banner_sm.png.webp 360w" sizes="(max-width: 480px) 150px" src="https://szoupi.com/wp-content/uploads/2023/11/news_szoupi_com_banner_sm.png.webp" alt="" class="uag-image-717" width="400" height="200" title="" loading="lazy">
+            <figure class="wp-block-uagb-image__figure">
+                    <a class="" href="https://onlyincorfu.com/discover-paradise-the-ultimate-guide-to-the-best-corfu-beaches/" target="_blank" rel="noreferrer noopener">
+                        <img decoding="async" srcset="https://szoupi.com/wp-content/uploads/2024/01/corfu-palaiokastritsa-view-768w.webp" alt="" class="uag-image-717" width="400" height="200" title="" loading="lazy">
                     </a>
                 </figure>
             </div>    
