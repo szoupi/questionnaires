@@ -12,8 +12,11 @@ include 'assets/templates/header.html';
 
         $results = 0;
         foreach ($_POST as $key => $value) {
-            // echo $key . " " . $value . "<br />";
-            $results += $value;
+            if (str_starts_with( $key, 'question' )){
+
+                // echo $key . " " . $value . "<br />";
+                $results += $value;
+            }
         }
         // echo $results;
 
@@ -76,7 +79,15 @@ include 'assets/templates/header.html';
                     <p>Το παραπάνω τεστ είναι ένα ανεπίσημο εργαλείο μέτρησης του εργασιακού στρες και της κατάστασης burnout. Δεν έχει απόλυτη επιστημονική επικύρωση και δεν φιλοδοξεί να αντικαταστήσει αντίστοιχα εργαλεία. Ως εκ τούτου, τα αποτελέσματα του τεστ θα πρέπει να λαμβάνονται υπόψιν σύμφωνα με τους κανόνες της κοινής λογικής.</p>
                 </div>
             </p>   
-                         
+              
+            <div>
+                <figure class="wp-block-uagb-image__figure">
+                    <a class="" href="https://news.szoupi.com" target="_blank" rel="noreferrer noopener">
+                        <img decoding="async" srcset="https://szoupi.com/wp-content/uploads/2023/11/news_szoupi_com_banner_sm.png.webp ,https://szoupi.com/wp-content/uploads/2023/11/news_szoupi_com_banner_sm.png.webp 780w, https://szoupi.com/wp-content/uploads/2023/11/news_szoupi_com_banner_sm.png.webp 360w" sizes="(max-width: 480px) 150px" src="https://szoupi.com/wp-content/uploads/2023/11/news_szoupi_com_banner_sm.png.webp" alt="" class="uag-image-717" width="400" height="200" title="" loading="lazy">
+                    </a>
+                </figure>
+            </div>
+         
         </div>
     </div>
 </main>

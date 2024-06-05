@@ -484,9 +484,10 @@ include '../assets/templates/header-eng.html';
 
             </div>
 	
-<br />
-<br />
-<br />
+            <br />
+
+            <br />
+            <br />
             <h2>SCORE EXPLANATION</h2>
             <p>
                 <div class="card">
@@ -553,6 +554,14 @@ include '../assets/templates/header-eng.html';
                     <p>The above test is an informal tool for measuring work stress and burnout level. It does not have complete scientific validation and does not aspire to replace corresponding tools. Therefore, the results of the test should be taken into account in accordance with the rules of common sense.</p>
                 </div>
             </p>
+            <div>
+                <figure class="wp-block-uagb-image__figure">
+                    <a class="" href="https://news.szoupi.com" target="_blank" rel="noreferrer noopener">
+                        <img decoding="async" srcset="https://szoupi.com/wp-content/uploads/2023/11/news_szoupi_com_banner_sm.png.webp ,https://szoupi.com/wp-content/uploads/2023/11/news_szoupi_com_banner_sm.png.webp 780w, https://szoupi.com/wp-content/uploads/2023/11/news_szoupi_com_banner_sm.png.webp 360w" sizes="(max-width: 480px) 150px" src="https://szoupi.com/wp-content/uploads/2023/11/news_szoupi_com_banner_sm.png.webp" alt="" class="uag-image-717" width="400" height="200" title="" loading="lazy">
+                    </a>
+                </figure>
+            </div>
+
         </div>
     </div>
 </main>
